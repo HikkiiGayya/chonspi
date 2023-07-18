@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1b0e28;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-nav {
+    width: 90%;
+    margin: auto;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.nav-main {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+/* NAV LEFT */
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #f0f8ff;
+}
+
+.nav-main ul.nav-menu {
+    flex:1;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* FORMULARIO DE REGISTRO */
+.container-register {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.container-form {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.container-form > * {
+    padding: 1em;
+}
+.container-form {
+    background: #291f33;
+}
+
+.container-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-form form button {
+    grid-column: 2fr 1fr;
+}
+
+.container-form form label {
+    display: block;
+}
+
+.container-form form .datos-usuario {
+    margin: 0;
+    padding: 1em;
+}
+
+.datos-usuario input,
+.datos-usuario button{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.datos-usuario select {
+    width: 100%;
+    padding: .7em;
+    border-color: #d63031;
+    background: #291f33 ;
+    color: #818181;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-form form button {
+    background: #d63031 ;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+
+
